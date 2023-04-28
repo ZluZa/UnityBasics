@@ -50,7 +50,7 @@ public class Game : MonoBehaviour
     void AssignCamera()
     {
         if(Cam == null)
-            Cam = Camera.main;
+            //Cam = Camera.main;
         if(Cam == null)
             ErrorMissingComponent("camera");
 
