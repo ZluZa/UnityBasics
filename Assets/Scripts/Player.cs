@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public GameManager manager;
+    public GameController controller;
     
     private Vector3 initialPosition;
     
@@ -60,12 +60,12 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Lava"))
         {
-            manager.ShowRestartScreen();
+            controller.ShowRestartScreen();
         }
 
         if (collision.gameObject.CompareTag("Finish"))
         {
-            manager.ShowFinishScreen();
+            controller.ShowFinishScreen();
         }
     }
 

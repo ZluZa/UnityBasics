@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour
+public class GameController : MonoBehaviour
 {
    public float timeLimit = 60f;
    private float time;
@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
    private void Start()
    {
       time = timeLimit;
-      player.manager = this;
+      player.controller = this;
    }
 
    private void Update()

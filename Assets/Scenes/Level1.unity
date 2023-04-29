@@ -438,7 +438,7 @@ MonoBehaviour:
   player: {fileID: 931124556}
   restartScreen: {fileID: 600646710}
   finishScreen: {fileID: 896125569}
-  nextLevelName: Level4
+  nextLevelName: Level2
 --- !u!4 &245488243
 Transform:
   m_ObjectHideFlags: 0
